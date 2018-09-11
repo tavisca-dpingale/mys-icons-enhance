@@ -1,0 +1,883 @@
+
+
+
+
+/*common sprite*/
+[class^="t-icon-"], [class*="t-icon-"] {
+    display: inline-block;
+    line-height: 14px;
+    vertical-align: middle;
+    background-image: url("https://d1o2mbjkynteqw.cloudfront.net/mystique/common-sprite.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.t-icon-gallery {
+    background-position: 0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.t-icon-gplus {
+    background-position: 0 -40px;
+    width: 17px;
+    height: 20px;
+}
+
+.t-icon-gplus-active {
+    background-position: 0 -70px;
+    width: 17px;
+    height: 20px;
+}
+
+.t-icon-grybox-check {
+    background-position: 0 -100px;
+    width: 15px;
+    height: 14px;
+}
+
+.t-icon-grybox-check-1 {
+    background-position: 0 -124px;
+    width: 15px;
+    height: 14px;
+}
+
+.t-icon-left-arrow {
+    background-position: 0 -148px;
+    width: 10px;
+    height: 10px;
+}
+
+.t-icon-location {
+    background-position: 0 -168px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-minus-big {
+    background-position: 0 -194px;
+    width: 18px;
+    height: 18px;
+}
+
+.t-icon-minus-sml {
+    background-position: 0 -222px;
+    width: 9px;
+    height: 9px;
+}
+
+.t-icon-note {
+    background-position: 0 -241px;
+    width: 11px;
+    height: 11px;
+}
+
+.t-icon-note-gry {
+    background-position: 0 -262px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-orangebox-check {
+    background-position: 0 -288px;
+    width: 15px;
+    height: 14px;
+}
+
+.t-icon-percent-circle {
+    background-position: 0 -312px;
+    width: 44px;
+    height: 44px;
+}
+
+.t-icon-phone {
+    background-position: 0 -366px;
+    width: 17px;
+    height: 20px;
+}
+
+.t-icon-phone-green {
+    background-position: 0 -396px;
+    width: 17px;
+    height: 20px;
+}
+
+.t-icon-phone-small {
+    background-position: 0 -426px;
+    width: 12px;
+    height: 12px;
+}
+
+.t-icon-plus-big {
+    background-position: 0 -448px;
+    width: 18px;
+    height: 18px;
+}
+
+.t-icon-plus-sml {
+    background-position: 0 -476px;
+    width: 9px;
+    height: 9px;
+}
+
+.t-icon-red-eye {
+    background-position: 0 -495px;
+    width: 10px;
+    height: 7px;
+}
+
+.t-icon-right-arrow {
+    background-position: 0 -512px;
+    width: 10px;
+    height: 10px;
+}
+
+.t-icon-srch-black {
+    background-position: 0 -532px;
+    width: 26px;
+    height: 25px;
+}
+
+.t-icon-search-small {
+    background-position: 0 -567px;
+    width: 13px;
+    height: 13px;
+}
+
+.t-icon-setting {
+    background-position: 0 -590px;
+    width: 12px;
+    height: 12px;
+}
+
+.t-icon-star {
+    background-position: 0 -612px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-tick {
+    background-position: 0 -638px;
+    width: 16px;
+    height: 12px;
+}
+
+.t-icon-tick-active {
+    background-position: 0 -660px;
+    width: 16px;
+    height: 12px;
+}
+
+.t-icon-tick-circle {
+    background-position: 0 -682px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-twitter {
+    background-position: 0 -708px;
+    width: 17px;
+    height: 20px;
+}
+
+.t-icon-twitter-active {
+    background-position: 0 -738px;
+    width: 17px;
+    height: 20px;
+}
+
+.t-icon-user-check {
+    background-position: 0 -768px;
+    width: 26px;
+    height: 24px;
+}
+
+.t-icon-user-large {
+    background-position: 0 -802px;
+    width: 58px;
+    height: 57px;
+}
+
+.t-icon-user-small {
+    background-position: 0 -869px;
+    width: 17px;
+    height: 18px;
+}
+
+.t-icon-alert {
+    background-position: 0 -897px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-alert-1 {
+    background-position: 0 -923px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-arrow_squareL {
+    background-position: 0 -949px;
+    width: 20px;
+    height: 21px;
+}
+
+.t-icon-arrow_squareR {
+    background-position: 0 -980px;
+    width: 20px;
+    height: 21px;
+}
+
+.t-icon-arrow-left {
+    background-position: 0 -1011px;
+    width: 14px;
+    height: 14px;
+}
+
+.t-icon-arrow-next {
+    background-position: 0 -1035px;
+    width: 12px;
+    height: 7px;
+}
+
+.t-icon-arrow-next-big {
+    background-position: 0 -1052px;
+    width: 18px;
+    height: 18px;
+}
+
+.t-icon-arrow-prev {
+    background-position: 0 -1080px;
+    width: 12px;
+    height: 7px;
+}
+
+.t-icon-arrow-prev-big {
+    background-position: 0 -1097px;
+    width: 18px;
+    height: 18px;
+}
+
+.t-icon-arrow-right {
+    background-position: 0 -1125px;
+    width: 14px;
+    height: 14px;
+}
+
+.t-icon-bag {
+    background-position: 0 -1149px;
+    width: 17px;
+    height: 18px;
+}
+
+.t-icon-calender {
+    background-position: 0 -1177px;
+    width: 18px;
+    height: 21px;
+}
+
+.t-icon-cart-large {
+    background-position: 0 -1208px;
+    width: 26px;
+    height: 25px;
+}
+
+.t-icon-cart-plus-green {
+    background-position: 0 -1243px;
+    width: 31px;
+    height: 27px;
+}
+
+.t-icon-cart-plus-orange {
+    background-position: 0 -1280px;
+    width: 31px;
+    height: 27px;
+}
+
+.t-icon-cart-small {
+    background-position: 0 -1317px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-circle-tick-green {
+    background-position: 0 -1343px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-circle-tick-grey {
+    background-position: 0 -1369px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-close {
+    background-position: 0 -1395px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-delete {
+    background-position: 0 -1421px;
+    width: 11px;
+    height: 13px;
+}
+
+.t-icon-dot-active {
+    background-position: 0 -1444px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-dot-inactive {
+    background-position: 0 -1470px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-email {
+    background-position: 0 -1496px;
+    width: 16px;
+    height: 10px;
+}
+
+.t-icon-fb {
+    background-position: 0 -1516px;
+    width: 17px;
+    height: 20px;
+}
+
+.t-icon-fb-active {
+    background-position: 0 -1546px;
+    width: 17px;
+    height: 20px;
+}
+
+.t-icon-checkout {
+    background-position: 0 -1576px;
+    width: 36px;
+    height: 36px;
+}
+
+.t-icon-checkout-active {
+    background-position: 0 -1622px;
+    width: 36px;
+    height: 36px;
+}
+
+.t-icon-checkout-done {
+    background-position: 0 -1668px;
+    width: 36px;
+    height: 36px;
+}
+
+.t-icon-dot-grey {
+    background-position: 0 -1714px;
+    width: 22px;
+    height: 22px;
+}
+
+.t-icon-dot-green {
+    background-position: 0 -1746px;
+    width: 22px;
+    height: 22px;
+}
+
+.t-icon-arwdark-left {
+    background-position: 0 -1778px;
+    width: 6px;
+    height: 11px;
+}
+
+.t-icon-arwdark-right {
+    background-position: 0 -1799px;
+    width: 6px;
+    height: 11px;
+}
+
+.t-icon-arwleft-big {
+    background-position: 0 -1820px;
+    width: 12px;
+    height: 10px;
+}
+
+.t-icon-arwright-big {
+    background-position: 0 -1840px;
+    width: 12px;
+    height: 10px;
+}
+
+.t-icon-arwdark-left-disable {
+    background-position: 0 -1013px;
+    width: 12px;
+    height: 10px;
+}
+
+.t-icon-download {
+    background-position: 0 -1860px;
+    width: 14px;
+    height: 14px;
+}
+
+.t-icon-recent-srch-dot {
+    background-position: 0 -1884px;
+    width: 34px;
+    height: 12px;
+}
+
+.t-icon-recent-srch-dot-1 {
+    background-position: 0 -1906px;
+    width: 34px;
+    height: 12px;
+}
+
+.t-icon-blue-arrow-right {
+    background-position: right -1928px;
+    width: 7px;
+    height: 11px;
+}
+
+.t-icon-blue-arrow-down {
+    background-position: right -1949px;
+    width: 7px;
+    height: 11px;
+}
+
+.t-icon-gray-circle {
+    background-position: 0 -1970px;
+    width: 21px;
+    height: 21px;
+}
+
+.t-icon-sml-white-arrow {
+    background-position: 0 -2001px;
+    width: 5px;
+    height: 6px;
+}
+
+.t-icon-city-marker {
+    background-position: 0px -2017px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-city-marker-gray {
+    background-position: 0px -2043px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-point-of-interest {
+    background-position: 0px -2069px;
+    width: 16px;
+    height: 16px;
+}
+
+.t-icon-bullet-black {
+    background-position: 0px -2095px;
+    width: 5px;
+    height: 5px;
+}
+
+
+/*car sprite*/
+[class^="car-icon-"], [class*="car-icon-"] {
+    display: inline-block;
+    line-height: 14px;
+    vertical-align: middle;
+    background-image: url("https://d1o2mbjkynteqw.cloudfront.net/mystique/car-sprite.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.car-icon-doors {
+    background-position: 0 0;
+    width: 25px;
+    height: 27px;
+}
+
+.car-icon-fuel {
+    background-position: 0 -37px;
+    width: 25px;
+    height: 27px;
+}
+
+.car-icon-gps {
+    background-position: 0 -74px;
+    width: 22px;
+    height: 27px;
+}
+
+.car-icon-manual {
+    background-position: 0 -111px;
+    width: 25px;
+    height: 27px;
+}
+
+.car-icon-seat {
+    background-position: 0 -148px;
+    width: 25px;
+    height: 27px;
+}
+
+.car-icon-small {
+    background-position: 0 -185px;
+    width: 17px;
+    height: 14px;
+}
+
+.car-icon-ac {
+    background-position: 0 -209px;
+    width: 25px;
+    height: 27px;
+}
+
+.car-icon-auto {
+    background-position: 0 -246px;
+    width: 25px;
+    height: 27px;
+}
+
+.car-icon-bag {
+    background-position: 0 -283px;
+    width: 25px;
+    height: 27px;
+}
+
+.car-icon-big {
+    background-position: 0 -320px;
+    width: 47px;
+    height: 47px;
+}
+
+.car-icon-transmission {
+    background-position: 0 -377px;
+    width: 16px;
+    height: 17px;
+}
+
+.car-icon-mileage {
+    background-position: 0 -400px;
+    width: 27px;
+    height: 27px;
+}
+/*car sprite*/
+
+
+/*hotel sprite*/
+[class^="hotel-icon-"], [class*="hotel-icon-"] {
+    display: inline-block;
+    /*margin-top: 1px;*/
+    line-height: 14px;
+    vertical-align: middle;
+    background-image: url("https://d1o2mbjkynteqw.cloudfront.net/mystique/hotel-sprite.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.hotel-icon-internet {
+    background-position: 0 0;
+    width: 22px;
+    height: 22px;
+}
+
+.hotel-icon-parking {
+    background-position: 0 -30px;
+    width: 22px;
+    height: 22px;
+}
+
+.hotel-icon-pool {
+    background-position: 0 -64px;
+    width: 22px;
+    height: 22px;
+}
+
+.hotel-icon-restaurant {
+    background-position: 0 -96px;
+    width: 22px;
+    height: 22px;
+}
+
+.hotel-icon-transport {
+    background-position: 0 -128px;
+    width: 22px;
+    height: 22px;
+}
+
+.hotel-icon-bar {
+    background-position: 0 -160px;
+    width: 22px;
+    height: 22px;
+}
+
+.hotel-icon-gym {
+    background-position: 0 -192px;
+    width: 22px;
+    height: 22px;
+}
+
+.hotel-icon-hoteladded {
+    background-position: 0 -224px;
+    width: 36px;
+    height: 37px;
+}
+
+.hotel-icon-small-black {
+    background-position: 0 -271px;
+    width: 17px;
+    height: 16px;
+}
+
+.hotel-icon-small-grey {
+    background-position: 0 -297px;
+    width: 16px;
+    height: 16px;
+}
+
+.hotel-icon-star {
+    background-position: 0 -323px;
+    width: 16px;
+    height: 16px;
+}
+
+.hotel-icon-star-active {
+    background-position: 0 -349px;
+    width: 16px;
+    height: 16px;
+}
+
+.hotel-icon-add-hotel {
+    background-position: 0 -375px;
+    width: 36px;
+    height: 37px;
+}
+
+.hotel-icon-big {
+    background-position: 0 -422px;
+    width: 47px;
+    height: 47px;
+}
+
+.hotel-icon-pets {
+    background-position: 0px -479px;
+    width: 21px;
+    height: 21px;
+}
+
+.hotel-icon-pets-na {
+    background-position: 0px -510px;
+    width: 21px;
+    height: 21px;
+}
+
+.hotel-icon-map-car-bk {
+    background-position: 0px -541px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-car-bl {
+    background-position: 0px -571px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-bus-bk {
+    background-position: 0px -601px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-bus-bl {
+    background-position: 0px -631px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-walk-bk {
+    background-position: 0px -661px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-walk-bl {
+    background-position: 0px -691px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-cycle-bk {
+    background-position: 0px -721px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-cycle-bl {
+    background-position: 0px -751px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-air-bk {
+    background-position: 0px -781px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-air-bl {
+    background-position: 0px -811px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-dir-bk {
+    background-position: 0px -841px;
+    width: 20px;
+    height: 20px;
+}
+
+.hotel-icon-map-dir-bl {
+    background-position: 0px -871px;
+    width: 20px;
+    height: 20px;
+}
+
+/*hotel sprite*/
+
+/*flight sprite*/
+[class^="flight-icon-"], [class*="flight-icon-"] {
+    display: inline-block;
+    line-height: 14px;
+    vertical-align: middle;
+    background-image: url("https://d1o2mbjkynteqw.cloudfront.net/mystique/flight-sprite.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.flight-icon-oneway-back {
+    background-position: 0 0;
+    width: 24px;
+    height: 24px;
+}
+
+.flight-icon-oneway {
+    background-position: 0 -34px;
+    width: 24px;
+    height: 24px;
+}
+
+.flight-icon-land {
+    background-position: 0 -68px;
+    width: 15px;
+    height: 11px;
+}
+
+.flight-icon-multi {
+    background-position: 0 -89px;
+    width: 32px;
+    height: 19px;
+}
+
+.flight-icon-return {
+    background-position: 0 -118px;
+    width: 24px;
+    height: 20px;
+}
+
+.flight-icon-small {
+    background-position: 0 -148px;
+    width: 17px;
+    height: 16px;
+}
+
+.flight-icon-takeoff {
+    background-position: 0 -174px;
+    width: 15px;
+    height: 11px;
+}
+
+.flight-icon-big {
+    background-position: 0 -195px;
+    width: 47px;
+    height: 47px;
+}
+
+.flight-icon-bigright {
+    background-position: 0 -252px;
+    width: 24px;
+    height: 24px;
+}
+
+.flight-icon-arrow {
+    background-position: 0 -286px;
+    width: 35px;
+    height: 16px;
+}
+
+/*flight sprite*/
+
+/*activity sprite*/
+[class^="activity-icon-"], [class*="activity-icon-"] {
+    display: inline-block;
+    line-height: 14px;
+    vertical-align: middle;
+    background-image: url("https://d1o2mbjkynteqw.cloudfront.net/mystique/activity-sprite.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.activity-icon-checkout-2 {
+    background-position: 0 0;
+    width: 36px;
+    height: 36px;
+}
+
+.activity-icon-checkout-3 {
+    background-position: 0 -46px;
+    width: 36px;
+    height: 36px;
+}
+
+.activity-icon-select {
+    background-position: 0 -92px;
+    width: 20px;
+    height: 20px;
+}
+
+.activity-icon-small {
+    background-position: 0 -122px;
+    width: 17px;
+    height: 14px;
+}
+
+.activity-icon-unselect {
+    background-position: 0 -146px;
+    width: 20px;
+    height: 20px;
+}
+
+.activity-icon-dot-green {
+    background-position: 0 -176px;
+    width: 22px;
+    height: 22px;
+}
+
+.activity-icon-dot-grey {
+    background-position: 0 -208px;
+    width: 22px;
+    height: 22px;
+}
+
+.activity-icon-big {
+    background-position: 0 -240px;
+    width: 47px;
+    height: 47px;
+}
+
+.activity-icon-checkout-1 {
+    background-position: 0 -297px;
+    width: 36px;
+    height: 36px;
+}
