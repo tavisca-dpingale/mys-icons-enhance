@@ -263,9 +263,6 @@
 .i-ac:before {
   content: "\5e";
 }
-.i-air-transport:before {
-  content: "\5f";
-}
 .i-auto-transmission:before {
   content: "\60";
 }
@@ -926,4 +923,45 @@
 .i-pets-not:before {
   content: "\e0c8";
 }
-
+.i-car:before {
+  content: "\5f";
+}
+.i-bus:before {
+  content: "\e0c9";
+}
+.i-cycling:before {
+  content: "\e0ca";
+}
+.i-signal:before {
+  content: "\e0cb";
+}
+.i-fullscreen:before {
+  content: "\e0cd";
+}
+.i-walking:before {
+  content: "\e0cc";
+}
+.i-flight-land-off:before {
+  content: "\e0cf";
+}
+.i-flight-take-off:before {
+  content: "\e0d0";
+}
+.i-flight-back:before {
+  content: "\e0d1";
+}
+.i-flight-go:before {
+  content: "\e0d2";
+}
+.i-flight-multi:before {
+  content: "\e0d3";
+}
+.i-flight-return:before {
+  content: "\e0d4";
+}
+.i-flight:before {
+  content: "\e0d5";
+}
+.i-flight-round:before {
+  content: "\e0ce";
+}
