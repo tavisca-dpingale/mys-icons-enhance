@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
+    <link href="http://fonts.googleapis.com/css?family=Dosis:400,500,700" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="bootstrap-glyph-icons.css">
 
     <link rel="stylesheet" href="t-icon.css">
@@ -14,6 +16,10 @@
     <link rel="stylesheet" href="tavisca-product-suite.css">
 
     <style>
+        body {
+            font-family: 'Dosis', 'Tahoma', sans-serif
+        }
+
         body,
         section {
             display: flex;
@@ -24,12 +30,13 @@
         section {
             flex: auto;
             justify-content: space-between;
+            align-items: flex-start;
             max-width: 47%;
             border-bottom: 2px solid lightgray;
             margin-left: 40px;
         }
 
-        section.full {
+        .full {
             max-width: 100%;
         }
 
@@ -38,29 +45,37 @@
         }
 
         i {
-            margin: 10px;
+            margin: 5px;
             font-size: 24px;
             display: inline-block;
+            color: deepskyblue;
         }
 
         span {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
-            margin: 10px;
             padding: 5px;
-            border: 1px solid #e4e4e4;
+            border-radius: 10px;
+            width: 25%
+        }
+        .full span {
+            width: 18%;
         }
         em {
-            font-size: 14px;
-            color: gray;
-        }   
+            font-size: 16px;
+            color: #000;
+            font-style: normal;
+            display: inline-block;
+            border: 1px solid #d2d2d2;
+            padding: 5px;
+        }
     </style>
 </head>
 
 <body>
 
-    <section class="glyph-icon">
+    <section class="glyph-icon full">
         <a href="mdi-preview.html" target="_blank">material design icons</a>
         <h3>Bootstrap glyphicon image sprite</h3>
         <span>
@@ -139,268 +154,263 @@
 
 
         <span><i class="icon-cog"></i>
-<em></em>
+            <em></em>
         </span>
-            <span><i class="icon-trash"></i>
-                <em></em>
+        <span><i class="icon-trash"></i>
+            <em></em>
         </span>
-            <span><i class="icon-home"></i>
-                <em></em>
+        <span><i class="icon-home"></i>
+            <em></em>
         </span>
-            <span><i class="icon-file"></i>
-                <em></em>
+        <span><i class="icon-file"></i>
+            <em></em>
         </span>
-            <span><i class="icon-time"></i>
-               <em></em>
+        <span><i class="icon-time"></i>
+            <em></em>
         </span>
-            <span><i class="icon-road"></i>
-                <em></em>
+        <span><i class="icon-road"></i>
+            <em></em>
         </span>
-            <span><i class="icon-download-alt"></i>
-                <em></em>
+        <span><i class="icon-download-alt"></i>
+            <em></em>
         </span>
-            <span><i class="icon-download"></i>
-                <em></em>
+        <span><i class="icon-download"></i>
+            <em></em>
         </span>
-            <span><i class="icon-upload"></i>
-                <em></em>
+        <span><i class="icon-upload"></i>
+            <em></em>
         </span>
-            <span><i class="icon-inbox"></i>
-                <em></em>
+        <span><i class="icon-inbox"></i>
+            <em></em>
         </span>
-            <span><i class="icon-play-circle"></i>
-                <em></em>
+        <span><i class="icon-play-circle"></i>
+            <em></em>
         </span>
-            <span><i class="icon-repeat"></i>
-                <em></em>
+        <span><i class="icon-repeat"></i>
+            <em></em>
         </span>
-            <span><i class="icon-refresh"></i>
-                <em></em>
+        <span><i class="icon-refresh"></i>
+            <em></em>
         </span>
-            <span><i class="icon-list-alt"></i>
-                <em></em>
+        <span><i class="icon-list-alt"></i>
+            <em></em>
         </span>
-            <span><i class="icon-lock"></i>
-                <em></em>
+        <span><i class="icon-lock"></i>
+            <em></em>
         </span>
-            <span><i class="icon-flag"></i><em></em></span>
+        <span><i class="icon-flag"></i><em></em></span>
 
-            <span><i class="icon-headphones"></i><em></em></span>
+        <span><i class="icon-headphones"></i><em></em></span>
 
-            <span><i class="icon-volume-off"></i><em></em></span>
+        <span><i class="icon-volume-off"></i><em></em></span>
 
-            <span><i class="icon-volume-down"></i><em></em></span>
+        <span><i class="icon-volume-down"></i><em></em></span>
 
-            <span><i class="icon-volume-up"></i><em></em></span>
+        <span><i class="icon-volume-up"></i><em></em></span>
 
-            <span><i class="icon-qrcode"></i><em></em></span>
+        <span><i class="icon-qrcode"></i><em></em></span>
 
-            <span><i class="icon-barcode"></i><em></em></span>
+        <span><i class="icon-barcode"></i><em></em></span>
 
-            <span><i class="icon-tag"></i><em></em></span>
+        <span><i class="icon-tag"></i><em></em></span>
 
-            <span><i class="icon-tags"></i><em></em></span>
+        <span><i class="icon-tags"></i><em></em></span>
 
-            <span><i class="icon-book"></i><em></em></span>
+        <span><i class="icon-book"></i><em></em></span>
 
-            <span><i class="icon-bookmark"></i><em></em></span>
+        <span><i class="icon-bookmark"></i><em></em></span>
 
-            <span><i class="icon-print"></i><em></em></span>
+        <span><i class="icon-print"></i><em></em></span>
 
-            <span><i class="icon-camera"></i><em></em></span>
+        <span><i class="icon-camera"></i><em></em></span>
 
-            <span><i class="icon-font"></i><em></em></span>
+        <span><i class="icon-font"></i><em></em></span>
 
-            <span><i class="icon-bold"></i><em></em></span>
+        <span><i class="icon-bold"></i><em></em></span>
 
-            <span><i class="icon-italic"></i><em></em></span>
+        <span><i class="icon-italic"></i><em></em></span>
 
-            <span><i class="icon-text-height"></i><em></em></span>
+        <span><i class="icon-text-height"></i><em></em></span>
 
-            <span><i class="icon-text-width"></i><em></em></span>
+        <span><i class="icon-text-width"></i><em></em></span>
 
-            <span><i class="icon-align-left"></i><em></em></span>
+        <span><i class="icon-align-left"></i><em></em></span>
 
-            <span><i class="icon-align-center"></i><em></em></span>
+        <span><i class="icon-align-center"></i><em></em></span>
 
-            <span><i class="icon-align-right"></i><em></em></span>
+        <span><i class="icon-align-right"></i><em></em></span>
 
-            <span><i class="icon-align-justify"></i><em></em></span>
+        <span><i class="icon-align-justify"></i><em></em></span>
 
-            <span><i class="icon-list"></i><em></em></span>
+        <span><i class="icon-list"></i><em></em></span>
 
-            <span><i class="icon-indent-left"></i><em></em></span>
+        <span><i class="icon-indent-left"></i><em></em></span>
 
-            <span><i class="icon-indent-right"></i><em></em></span>
+        <span><i class="icon-indent-right"></i><em></em></span>
 
-            <span><i class="icon-facetime-video"></i><em></em></span>
+        <span><i class="icon-facetime-video"></i><em></em></span>
 
-            <span><i class="icon-picture"></i><em></em></span>
+        <span><i class="icon-picture"></i><em></em></span>
 
-            <span><i class="icon-pencil"></i><em></em></span>
+        <span><i class="icon-pencil"></i><em></em></span>
 
-            <span><i class="icon-map-marker"></i><em></em></span>
+        <span><i class="icon-map-marker"></i><em></em></span>
 
-            <span><i class="icon-adjust"></i><em></em></span>
+        <span><i class="icon-adjust"></i><em></em></span>
 
-            <span><i class="icon-tint"></i><em></em></span>
+        <span><i class="icon-tint"></i><em></em></span>
 
-            <span><i class="icon-edit"></i><em></em></span>
+        <span><i class="icon-edit"></i><em></em></span>
 
-            <span><i class="icon-share"></i><em></em></span>
+        <span><i class="icon-share"></i><em></em></span>
 
-            <span><i class="icon-check"></i><em></em></span>
+        <span><i class="icon-check"></i><em></em></span>
 
-            <span><i class="icon-move"></i><em></em></span>
+        <span><i class="icon-move"></i><em></em></span>
 
-            <span><i class="icon-step-backward"></i><em></em></span>
+        <span><i class="icon-step-backward"></i><em></em></span>
 
-            <span><i class="icon-fast-backward"></i><em></em></span>
+        <span><i class="icon-fast-backward"></i><em></em></span>
 
-            <span><i class="icon-backward"></i><em></em></span>
+        <span><i class="icon-backward"></i><em></em></span>
 
-            <span><i class="icon-play"></i><em></em></span>
+        <span><i class="icon-play"></i><em></em></span>
 
-            <span><i class="icon-pause"></i><em></em></span>
+        <span><i class="icon-pause"></i><em></em></span>
 
-            <span><i class="icon-stop"></i><em></em></span>
+        <span><i class="icon-stop"></i><em></em></span>
 
-            <span><i class="icon-forward"></i><em></em></span>
+        <span><i class="icon-forward"></i><em></em></span>
 
-            <span><i class="icon-fast-forward"></i><em></em></span>
+        <span><i class="icon-fast-forward"></i><em></em></span>
 
-            <span><i class="icon-step-forward"></i><em></em></span>
+        <span><i class="icon-step-forward"></i><em></em></span>
 
-            <span><i class="icon-eject"></i><em></em></span>
+        <span><i class="icon-eject"></i><em></em></span>
 
-            <span><i class="icon-chevron-left"></i><em></em></span>
+        <span><i class="icon-chevron-left"></i><em></em></span>
 
-            <span><i class="icon-chevron-right"></i><em></em></span>
+        <span><i class="icon-chevron-right"></i><em></em></span>
 
-            <span><i class="icon-plus-sign"></i><em></em></span>
+        <span><i class="icon-plus-sign"></i><em></em></span>
 
-            <span><i class="icon-minus-sign"></i><em></em></span>
+        <span><i class="icon-minus-sign"></i><em></em></span>
 
-            <span><i class="icon-remove-sign"></i><em></em></span>
+        <span><i class="icon-remove-sign"></i><em></em></span>
 
-            <span><i class="icon-ok-sign"></i><em></em></span>
+        <span><i class="icon-ok-sign"></i><em></em></span>
 
-            <span><i class="icon-question-sign"></i><em></em></span>
+        <span><i class="icon-question-sign"></i><em></em></span>
 
-            <span><i class="icon-info-sign"></i><em></em></span>
+        <span><i class="icon-info-sign"></i><em></em></span>
 
-            <span><i class="icon-screenshot"></i><em></em></span>
+        <span><i class="icon-screenshot"></i><em></em></span>
 
-            <span><i class="icon-remove-circle"></i><em></em></span>
+        <span><i class="icon-remove-circle"></i><em></em></span>
 
-            <span><i class="icon-ok-circle"></i><em></em></span>
+        <span><i class="icon-ok-circle"></i><em></em></span>
 
-            <span><i class="icon-ban-circle"></i><em></em></span>
+        <span><i class="icon-ban-circle"></i><em></em></span>
 
-            <span><i class="icon-arrow-left"></i><em></em></span>
+        <span><i class="icon-arrow-left"></i><em></em></span>
 
-            <span><i class="icon-arrow-right"></i><em></em></span>
+        <span><i class="icon-arrow-right"></i><em></em></span>
 
-            <span><i class="icon-arrow-up"></i><em></em></span>
+        <span><i class="icon-arrow-up"></i><em></em></span>
 
-            <span><i class="icon-arrow-down"></i><em></em></span>
+        <span><i class="icon-arrow-down"></i><em></em></span>
 
-            <span><i class="icon-share-alt"></i><em></em></span>
+        <span><i class="icon-share-alt"></i><em></em></span>
 
-            <span><i class="icon-resize-full"></i><em></em></span>
+        <span><i class="icon-resize-full"></i><em></em></span>
 
-            <span><i class="icon-resize-small"></i><em></em></span>
+        <span><i class="icon-resize-small"></i><em></em></span>
 
-            <span><i class="icon-plus"></i><em></em></span>
+        <span><i class="icon-plus"></i><em></em></span>
 
-            <span><i class="icon-minus"></i><em></em></span>
+        <span><i class="icon-minus"></i><em></em></span>
 
-            <span><i class="icon-asterisk"></i><em></em></span>
+        <span><i class="icon-asterisk"></i><em></em></span>
 
-            <span><i class="icon-exclamation-sign"></i><em></em></span>
+        <span><i class="icon-exclamation-sign"></i><em></em></span>
 
-            <span><i class="icon-gift"></i><em></em></span>
+        <span><i class="icon-gift"></i><em></em></span>
 
-            <span><i class="icon-leaf"></i><em></em></span>
+        <span><i class="icon-leaf"></i><em></em></span>
 
-            <span><i class="icon-fire"></i><em></em></span>
+        <span><i class="icon-fire"></i><em></em></span>
 
-            <span><i class="icon-eye-open"></i><em></em></span>
+        <span><i class="icon-eye-open"></i><em></em></span>
 
-            <span><i class="icon-eye-close"></i><em></em></span>
+        <span><i class="icon-eye-close"></i><em></em></span>
 
-            <span><i class="icon-warning-sign"></i><em></em></span>
+        <span><i class="icon-warning-sign"></i><em></em></span>
 
-            <span><i class="icon-plane"></i><em></em></span>
+        <span><i class="icon-plane"></i><em></em></span>
 
-            <span><i class="icon-calendar"></i><em></em></span>
+        <span><i class="icon-calendar"></i><em></em></span>
 
-            <span><i class="icon-random"></i><em></em></span>
+        <span><i class="icon-random"></i><em></em></span>
 
-            <span><i class="icon-comment"></i><em></em></span>
+        <span><i class="icon-comment"></i><em></em></span>
 
-            <span><i class="icon-magnet"></i><em></em></span>
+        <span><i class="icon-magnet"></i><em></em></span>
 
-            <span><i class="icon-chevron-up"></i><em></em></span>
+        <span><i class="icon-chevron-up"></i><em></em></span>
 
-            <span><i class="icon-chevron-down"></i><em></em></span>
+        <span><i class="icon-chevron-down"></i><em></em></span>
 
-            <span><i class="icon-retweet"></i><em></em></span>
+        <span><i class="icon-retweet"></i><em></em></span>
 
-            <span><i class="icon-shopping-cart"></i><em></em></span>
+        <span><i class="icon-shopping-cart"></i><em></em></span>
 
-            <span><i class="icon-folder-close"></i><em></em></span>
+        <span><i class="icon-folder-close"></i><em></em></span>
 
-            <span><i class="icon-folder-open"></i><em></em></span>
+        <span><i class="icon-folder-open"></i><em></em></span>
 
-            <span><i class="icon-resize-vertical"></i><em></em></span>
+        <span><i class="icon-resize-vertical"></i><em></em></span>
 
-            <span><i class="icon-resize-horizontal"></i><em></em></span>
+        <span><i class="icon-resize-horizontal"></i><em></em></span>
 
-            <span><i class="icon-hdd"></i><em></em></span>
+        <span><i class="icon-hdd"></i><em></em></span>
 
-            <span><i class="icon-bullhorn"></i><em></em></span>
+        <span><i class="icon-bullhorn"></i><em></em></span>
 
-            <span><i class="icon-bell"></i><em></em></span>
+        <span><i class="icon-bell"></i><em></em></span>
 
-            <span><i class="icon-certificate"></i><em></em></span>
+        <span><i class="icon-certificate"></i><em></em></span>
 
-            <span><i class="icon-thumbs-up"></i><em></em></span>
+        <span><i class="icon-thumbs-up"></i><em></em></span>
 
-            <span><i class="icon-thumbs-down"></i><em></em></span>
+        <span><i class="icon-thumbs-down"></i><em></em></span>
 
-            <span><i class="icon-hand-right"></i><em></em></span>
+        <span><i class="icon-hand-right"></i><em></em></span>
 
-            <span><i class="icon-hand-left"></i><em></em></span>
+        <span><i class="icon-hand-left"></i><em></em></span>
 
-            <span><i class="icon-hand-up"></i><em></em></span>
+        <span><i class="icon-hand-up"></i><em></em></span>
 
-            <span><i class="icon-hand-down"></i><em></em></span>
+        <span><i class="icon-hand-down"></i><em></em></span>
 
-            <span><i class="icon-circle-arrow-right"></i><em></em></span>
+        <span><i class="icon-circle-arrow-right"></i><em></em></span>
 
-            <span><i class="icon-circle-arrow-left"></i><em></em></span>
+        <span><i class="icon-circle-arrow-left"></i><em></em></span>
 
-            <span><i class="icon-circle-arrow-up"></i><em></em></span>
+        <span><i class="icon-circle-arrow-up"></i><em></em></span>
 
-            <span><i class="icon-circle-arrow-down"></i><em></em></span>
+        <span><i class="icon-circle-arrow-down"></i><em></em></span>
 
-            <span><i class="icon-globe"></i><em></em></span>
+        <span><i class="icon-globe"></i><em></em></span>
 
-            <span><i class="icon-wrench"></i><em></em></span>
+        <span><i class="icon-wrench"></i><em></em></span>
 
-            <span><i class="icon-tasks"></i><em></em></span>
+        <span><i class="icon-tasks"></i><em></em></span>
 
-            <span><i class="icon-filter"></i><em></em></span>
+        <span><i class="icon-filter"></i><em></em></span>
 
-            <span><i class="icon-briefcase"></i><em></em></span>
+        <span><i class="icon-briefcase"></i><em></em></span>
 
-            <span><i class="icon-fullscreen"></i><em></em></span>
-    </section>
-
-    <section class="font-icon">
-        <h3>tavisca product suite icons</h3>
-
+        <span><i class="icon-fullscreen"></i><em></em></span>
     </section>
 
     <section class="t-icon">
@@ -536,7 +546,7 @@
         <span><i class="i-calendar-1"></i><em></em></span>
         <span><i class="i-calendar-2"></i><em></em></span>
         <span><i class="i-cart-shopping-1"></i><em></em></span>
-        <span><i class="i-checkmark-round"></i><em></em></span>
+        <span><i class="i-check-round-solid"></i><em></em></span>
         <span><i class="i-close"></i><em></em></span>
         <span><i class="i-close-round"></i><em></em></span>
         <span><i class="i-cross"></i><em></em></span>
@@ -624,13 +634,14 @@
         <span><i class="i-fitness"></i><em></em></span>
         <span><i class="i-airplane"></i><em></em></span>
         <span><i class="i-star"></i><em></em></span>
+        <span><i class="i-hotel"></i><em></em></span>
         <span><i class="i-hotel-big"></i><em></em></span>
         <span><i class="i-pets"></i><em></em></span>
         <span><i class="i-pets-not"></i><em></em></span>
         <span><i class="i-car"></i><em></em></span>
         <span><i class="i-bus"></i><em></em></span>
         <span><i class="i-cycling"></i><em></em></span>
-        
+
     </section>
 
     <section class="flight-icon">
@@ -655,8 +666,8 @@
         <span><i class="i-flight-take-off"></i><em></em></span>
         <span><i class="i-flight-multi"></i><em></em></span>
         <span><i class="i-flight-return"></i><em></em></span>
-        <span><i class="i-flight"></i><em></em></span>
-        <span><i class="i-flight-round"></i><em></em></span>
+        <span><i class="i-airplane"></i><em></em></span>
+        <span><i class="i-flight-round-solid"></i><em></em></span>
     </section>
 
     <section class="activity-icon">
@@ -706,7 +717,7 @@
         <span><i class="i-circle-arrow-left-o"></i><em></em></span>
         <span><i class="i-circle-arrow-right-o"></i><em></em></span>
         <span><i class="i-circle-arrow-up-o"></i><em></em></span>
-        <span><i class="i-caret-down-two"></i><em></em></span>
+        <span><i class="i-caret-down"></i><em></em></span>
         <span><i class="i-caret-left"></i><em></em></span>
         <span><i class="i-caret-right"></i><em></em></span>
         <span><i class="i-caret-up"></i><em></em></span>
@@ -821,6 +832,7 @@
         <span><i class="i-power-off"></i><em></em></span>
         <span><i class="i-refresh"></i><em></em></span>
         <span><i class="i-hotel"></i><em></em></span>
+        <span><i class="i-hotel-big"></i><em></em></span>
         <span><i class="i-instagram"></i><em></em></span>
         <span><i class="i-pinterest"></i><em></em></span>
         <span><i class="i-wordpress"></i><em></em></span>
@@ -880,7 +892,6 @@
         <span><i class="i-tag"></i><em></em></span>
         <span><i class="i-medal-rank-star"></i><em></em></span>
         <span><i class="i-check-mark"></i><em></em></span>
-        <span><i class="i-checkmark-round"></i><em></em></span>
         <span><i class="i-error-round"></i><em></em></span>
         <span><i class="i-calendar-2"></i><em></em></span>
         <span><i class="i-arrow-circle-down-o"></i><em></em></span>
@@ -979,7 +990,6 @@
         <span><i class="i-envelope-o"></i><em></em></span>
         <span><i class="i-mileage"></i><em></em></span>
         <span><i class="i-taxi"></i><em></em></span>
-        <span><i class="i-hotel-big"></i><em></em></span>
         <span><i class="i-golf"></i><em></em></span>
         <span><i class="i-download"></i><em></em></span>
         <span><i class="i-pets"></i><em></em></span>
@@ -989,15 +999,23 @@
         <span><i class="i-cycling"></i><em></em></span>
         <span><i class="i-signal"></i><em></em></span>
         <span><i class="i-fullscreen"></i><em></em></span>
-        <span><i class="i-walking:before"></i><em></em></span>
+        <span><i class="i-walking"></i><em></em></span>
         <span><i class="i-flight-land-off"></i><em></em></span>
         <span><i class="i-flight-take-off"></i><em></em></span>
         <span><i class="i-flight-back"></i><em></em></span>
         <span><i class="i-flight-go"></i><em></em></span>
         <span><i class="i-flight-multi"></i><em></em></span>
         <span><i class="i-flight-return"></i><em></em></span>
-        <span><i class="i-flight"></i><em></em></span>
-        <span><i class="i-flight-round"></i><em></em></span>
+        <span><i class="i-airplane"></i><em></em></span>
+        <span><i class="i-flight-round-solid"></i><em></em></span>
+        <span><i class="i-arrow-down-solid"></i><em></em></span>
+        <span><i class="i-arrow-left-solid"></i><em></em></span>
+        <span><i class="i-arrow-right-solid"></i><em></em></span>
+        <span><i class="i-arrow-up-solid"></i><em></em></span>
+        <span><i class="i-activity"></i><em></em></span>
+        <span><i class="i-check-round-solid"></i><em></em></span>
+        <span><i class="i-copyright-o"></i><em></em></span>
+        <span><i class="i-dollar"></i><em></em></span>
     </section>
 
 
