@@ -38,9 +38,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.i-sound:before {
-  content: "\61";
-}
 .i-question:before {
   content: "\63";
 }
@@ -383,7 +380,7 @@
 .i-file:before {
   content: "\e026";
 }
-.i-audio:before {
+.i-audio-off:before {
   content: "\e027";
 }
 .i-pdf:before {
@@ -413,7 +410,7 @@
 .i-image-1:before {
   content: "\e030";
 }
-.i-audio-1:before {
+.i-audio-on:before {
   content: "\e031";
 }
 .i-file-2:before {
@@ -982,4 +979,31 @@
 }
 .i-hotel:before {
   content: "\e008";
+}
+.i-check-round-o:before {
+  content: "\e021";
+}
+.i-user-check:before {
+  content: "\e0dd";
+}
+.i-download-circle-o:before {
+  content: "\e0de";
+}
+.i-upload-circle-o:before {
+  content: "\e0df";
+}
+.i-inbox:before {
+  content: "\e0e0";
+}
+.i-headphone:before {
+  content: "\e0e1";
+}
+.i-qrcode:before {
+  content: "\61";
+}
+.i-barcode:before {
+  content: "\e0e2";
+}
+.i-book:before {
+  content: "\e0e3";
 }
