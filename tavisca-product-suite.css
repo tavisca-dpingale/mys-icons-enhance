@@ -56,7 +56,7 @@
 .i-arrow-right-type-2:before {
   content: "\6a";
 }
-.i-arrow-up-down:before {
+.i-asc-desc:before {
   content: "\6b";
 }
 .i-cross-big:before {
@@ -134,7 +134,7 @@
 .i-trash-bin:before {
   content: "\4f";
 }
-.i-gear-setting-2:before {
+.i-gear:before {
   content: "\50";
 }
 .i-photo-picture:before {
@@ -1006,4 +1006,7 @@
 }
 .i-book:before {
   content: "\e0e3";
+}
+.i-bookmark:before {
+  content: "\e0e4";
 }
