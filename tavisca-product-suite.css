@@ -719,19 +719,19 @@
 .i-bell-o:before {
   content: "\e08d";
 }
-.i-hand-o-down:before {
+.i-hand-down-o:before {
   content: "\e08e";
 }
-.i-hand-o-left:before {
+.i-hand-left-o:before {
   content: "\e08f";
 }
-.i-hand-o-right:before {
+.i-hand-right-o:before {
   content: "\e090";
 }
-.i-hand-o-up:before {
+.i-hand-up-o:before {
   content: "\e091";
 }
-.i-thumbs-o-up:before {
+.i-thumbs-up-o:before {
   content: "\e092";
 }
 .i-thumbs-up:before {
@@ -740,7 +740,7 @@
 .i-thumbs-down:before {
   content: "\e094";
 }
-.i-thumbs-o-down:before {
+.i-thumbs-down-o:before {
   content: "\e095";
 }
 .i-wheelchair:before {
@@ -947,7 +947,7 @@
 .i-flight-return:before {
   content: "\e0d4";
 }
-.i-airplane:before {
+.i-flight:before {
   content: "\e0d5";
 }
 .i-flight-round-solid:before {
@@ -1009,4 +1009,37 @@
 }
 .i-bookmark:before {
   content: "\e0e4";
+}
+.i-gift:before {
+  content: "\e0e5";
+}
+.i-leaf:before {
+  content: "\e0e6";
+}
+.i-fire:before {
+  content: "\e0e7";
+}
+.i-warning-triangle:before {
+  content: "\e0e8";
+}
+.i-bullhorn:before {
+  content: "\e0e9";
+}
+.i-cart-plus:before {
+  content: "\e0eb";
+}
+.i-comment:before {
+  content: "\e0ec";
+}
+.i-chat:before {
+  content: "\e0ed";
+}
+.i-gallery-circle-solid:before {
+  content: "\e0ea";
+}
+.i-gear-dual-o:before {
+  content: "\e0ee";
+}
+.i-gear-dual:before {
+  content: "\e0ef";
 }

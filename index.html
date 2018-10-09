@@ -40,6 +40,7 @@
 
         .full {
             max-width: 100%;
+            width: 100%;
         }
 
         h3 {
@@ -67,7 +68,7 @@
         }
 
         em {
-            font-size: 16px;
+            font-size: 18px;
             color: #000;
             font-style: normal;
             display: inline-block;
@@ -80,7 +81,10 @@
 </head>
 
 <body>
-
+    <div class="full">
+        <button type="button" onclick="iColorFunction()">
+        red icons!</button>
+    </div>
     <section class="glyph-icon">
         <a href="mdi-preview.html" target="_blank">material design icons</a>
         <h3>Bootstrap glyphicon image sprite</h3>
@@ -439,6 +443,7 @@
         <span><i class="i-power-off"></i><em></em></span>
         <span><i class="i-signal"></i><em></em></span>
         <span><i class="i-gear"></i><em></em></span>
+        <span><i class="i-wrench"></i><em></em></span>
         <span><i class="i-trash"></i><em></em></span>
         <span><i class="i-home"></i><em></em></span>
         <span><i class="i-file"></i><em></em></span>
@@ -449,48 +454,40 @@
         <span><i class="i-inbox"></i><em></em></span>
         <span><i class="i-play-circle-line"></i><em></em></span>
         <span><i class="i-repeat"></i><em></em></span>
-
         <span><i class="i-refresh"></i><em></em></span>
         <span><i class="i-lock"></i><em></em></span>
         <span><i class="i-flag"></i><em></em></span>
         <span><i class="i-headphone"></i><em></em></span>
         <span><i class="i-audio-on"></i><em></em></span>
-
         <span><i class="i-audio-off"></i><em></em></span>
         <span><i class="i-qrcode"></i><em></em></span>
         <span><i class="i-barcode"></i><em></em></span>
         <span><i class="i-tag"></i><em></em></span>
         <span><i class="i-tags"></i><em></em></span>
-
         <span><i class="i-book"></i><em></em></span>
         <span><i class="i-bokmark"></i><em></em></span>
         <span><i class="i-print"></i><em></em></span>
         <span><i class="i-camera"></i><em></em></span>
         <span><i class="i-font"></i><em></em></span>
-
         <span><i class="i-bold"></i><em></em></span>
         <span><i class="i-italic"></i><em></em></span>
         <span><i class="i-align-left"></i><em></em></span>
         <span><i class="i-align-center"></i><em></em></span>
         <span><i class="i-align-right"></i><em></em></span>
-
         <span><i class="i-align-justify"></i><em></em></span>
         <span><i class="i-list"></i><em></em></span>
         <span><i class="i-video-camera"></i><em></em></span>
         <span><i class="i-photo-picture"></i><em></em></span>
         <span><i class="i-pencil"></i><em></em></span>
-
         <span><i class="i-edit-line"></i><em></em></span>
         <span><i class="i-map"></i><em></em></span>
         <span><i class="i-tint"></i><em></em></span>
         <span><i class="i-share-round"></i><em></em></span>
         <span><i class="i-checkbox"></i><em></em></span>
-
         <span><i class="i-checkbox-active"></i><em></em></span>
         <span><i class="i-move-arrow"></i><em></em></span>
         <span><i class="i-step-backward"></i><em></em></span>
         <span><i class="i-step-forward"></i><em></em></span>
-
         <span><i class="i-fast-backward"></i><em></em></span>
         <span><i class="i-fast-forward"></i><em></em></span>
         <span><i class="i-play"></i><em></em></span>
@@ -508,27 +505,58 @@
         <span><i class="i-arrow-left-solid"></i><em></em></span>
         <span><i class="i-arrow-right-solid"></i><em></em></span>
         <span><i class="i-arrow-up-solid"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
-        <span><i class="i-"></i><em></em></span>
+        <span><i class="i-close-round"></i><em></em></span>
+        <span><i class="i-close"></i><em></em></span>
+        <span><i class="i-check-round-solid"></i><em></em></span>
+        <span><i class="i-check-round-o"></i><em></em></span>
+        <span><i class="i-share-round"></i><em></em></span>
+        <span><i class="i-resize"></i><em></em></span>
+        <span><i class="i-plus"></i><em></em></span>
+        <span><i class="i-minus"></i><em></em></span>
+        <span><i class="i-certificate"></i><em></em></span>
+        <span><i class="i-info-round"></i><em></em></span>
+        <span><i class="i-gift"></i><em></em></span>
+        <span><i class="i-leaf"></i><em></em></span>
+        <span><i class="i-fire"></i><em></em></span>
+        <span><i class="i-eye"></i><em></em></span>
+        <span><i class="i-eye-slash"></i><em></em></span>
+        <span><i class="i-warning-triangle"></i><em></em></span>
+        <span><i class="i-error"></i><em></em></span>
+        <span><i class="i-error-round"></i><em></em></span>
+        <span><i class="i-plane-airport"></i><em></em></span>
+        <span><i class="i-flight"></i><em></em></span>
+        <span><i class="i-calendar"></i><em></em></span>
+        <span><i class="i-calendar-1"></i><em></em></span>
+        <span><i class="i-calendar-2"></i><em></em></span>
+        <span><i class="i-cart-shopping-1"></i><em></em></span>
+        <span><i class="i-cart"></i><em></em></span>
+        <span><i class="i-folder"></i><em></em></span>
+        <span><i class="i-folder-o"></i><em></em></span>
+        <span><i class="i-folder-open"></i><em></em></span>
+        <span><i class="i-folder-open-o"></i><em></em></span>
+        <span><i class="i-bullhorn"></i><em></em></span>
+        <span><i class="i-bell"></i><em></em></span>
+        <span><i class="i-bell-o"></i><em></em></span>
+        <span><i class="i-thumbs-up"></i><em></em></span>
+        <span><i class="i-thumbs-down"></i><em></em></span>
+        <span><i class="i-thumbs-up-o"></i><em></em></span>
+        <span><i class="i-thumbs-down-o"></i><em></em></span>
+        <span><i class="i-arrow-circle-down"></i><em></em></span>
+        <span><i class="i-arrow-circle-down-o"></i><em></em></span>
+        <span><i class="i-arrow-circle-left"></i><em></em></span>
+        <span><i class="i-arrow-circle-left-o"></i><em></em></span>
+        <span><i class="i-arrow-circle-right"></i><em></em></span>
+        <span><i class="i-arrow-circle-right-o"></i><em></em></span>
+        <span><i class="i-arrow-circle-up"></i><em></em></span>
+        <span><i class="i-arrow-circle-up-o"></i><em></em></span>
+        <span><i class="i-globe"></i><em></em></span>
+        <span><i class="i-filter"></i><em></em></span>
+        <span><i class="i-filter-1"></i><em></em></span>
+        <span><i class="i-laugage"></i><em></em></span>
+        <span><i class="i-packages"></i><em></em></span>
+        <span><i class="i-fullscreen"></i><em></em></span>
+        <span><i class="i-chat"></i><em></em></span>
+        <span><i class="i-comment"></i><em></em></span>
     </section>
 
     <section class="t-icon">
@@ -615,18 +643,25 @@
 
     <section class="font-icon">
         <h3>tavisca product suite icons</h3>
+        <span><i class="i-gallery-circle-solid"></i><em></em></span>
         <span><i class="i-google-plus"></i><em></em></span>
-        <span><i class="i-twitter"></i><em></em></span>
-        <span><i class="i-twitter-1"></i><em></em></span>
-        <span><i class="i-twt-round"></i><em></em></span>
-        <span><i class="i-facebook"></i><em></em></span>
-        <span><i class="i-fb-round"></i><em></em></span>
-
         <span><i class="i-checkbox-active"></i><em></em></span>
         <span><i class="i-arrow-long-left"></i><em></em></span>
         <span><i class="i-arrow-long-right"></i><em></em></span>
         <span><i class="i-arrow-long-up"></i><em></em></span>
         <span><i class="i-arrow-long-down"></i><em></em></span>
+        <span><i class="i-map-marker-1"></i><em></em></span>
+        <span><i class="i-minus-square"></i><em></em></span>
+        <span><i class="i-minus-square-o"></i><em></em></span>
+        <span><i class="i-tag"></i><em></em></span>
+        <span><i class="i-tags"></i><em></em></span>
+        <span><i class="i-plus-square"></i><em></em></span>
+        <span><i class="i-eye"></i><em></em></span>
+        <span><i class="i-search"></i><em></em></span>
+        <span><i class="i-search-1"></i><em></em></span>
+        <span><i class="i-gear"></i><em></em></span>
+        <span><i class="i-facebook"></i><em></em></span>
+        <span><i class="i-fb-round"></i><em></em></span>
         <span><i class="i-tag"></i><em></em></span>
         <span><i class="i-tags"></i><em></em></span>
         <span><i class="i-call-phone"></i><em></em></span>
@@ -640,11 +675,13 @@
         <span><i class="i-minus-square"></i><em></em></span>
         <span><i class="i-search"></i><em></em></span>
         <span><i class="i-search-1"></i><em></em></span>
-        <span><i class="i-gear"></i><em></em></span>
         <span><i class="i-medal-rank-star"></i><em></em></span>
         <span><i class="i-check-mark"></i><em></em></span>
         <span><i class="i-check-mark-2"></i><em></em></span>
         <span><i class="i-check-mark-2-1"></i><em></em></span>
+        <span><i class="i-twitter"></i><em></em></span>
+        <span><i class="i-twitter-1"></i><em></em></span>
+        <span><i class="i-twt-round"></i><em></em></span>
         <span><i class="i-user"></i><em></em></span>
         <span><i class="i-user-o"></i><em></em></span>
         <span><i class="i-user-circle"></i><em></em></span>
@@ -655,15 +692,12 @@
         <span><i class="i-caret-right-square"></i><em></em></span>
         <span><i class="i-caret-up-square"></i><em></em></span>
         <span><i class="i-caret-down-square"></i><em></em></span>
-        <span><i class="i-caret-left"></i><em></em></span>
-        <span><i class="i-caret-right"></i><em></em></span>
-        <span><i class="i-caret-up"></i><em></em></span>
-        <span><i class="i-caret-down"></i><em></em></span>
         <span><i class="i-packages"></i><em></em></span>
         <span><i class="i-calendar"></i><em></em></span>
         <span><i class="i-calendar-1"></i><em></em></span>
         <span><i class="i-calendar-2"></i><em></em></span>
         <span><i class="i-cart-shopping-1"></i><em></em></span>
+        <span><i class="i-cart-plus"></i><em></em></span>
         <span><i class="i-check-round-solid"></i><em></em></span>
         <span><i class="i-close"></i><em></em></span>
         <span><i class="i-close-round"></i><em></em></span>
@@ -671,12 +705,32 @@
         <span><i class="i-trash"></i><em></em></span>
         <span><i class="i-trash-bin"></i><em></em></span>
         <span><i class="i-delete-1"></i><em></em></span>
+        <span><i class="i-circle-filled-outline"></i><em></em></span>
         <span><i class="i-radio-btn-active"></i><em></em></span>
         <span><i class="i-radio-btn-normal"></i><em></em></span>
-        <span><i class="i-mail"></i><em></em></span>
-        <span><i class="i-mail-round"></i><em></em></span>
         <span><i class="i-envelope"></i><em></em></span>
         <span><i class="i-envelope-o"></i><em></em></span>
+        <span><i class="i-check-round-o"></i><em></em></span>
+        <span><i class="i-check-round-solid"></i><em></em></span>
+        <span><i class="i-caret-left"></i><em></em></span>
+        <span><i class="i-caret-right"></i><em></em></span>
+        <span><i class="i-caret-up"></i><em></em></span>
+        <span><i class="i-caret-down"></i><em></em></span>
+
+        <span><i class="i-arrow-down-solid"></i><em></em></span>
+        <span><i class="i-arrow-left-solid"></i><em></em></span>
+        <span><i class="i-arrow-up-solid"></i><em></em></span>
+        <span><i class="i-arrow-right-solid"></i><em></em></span>
+
+        <span><i class="i-download"></i><em></em></span>
+        <span><i class="i-download-circle-o"></i><em></em></span>
+        <span><i class="i-download-solid"></i><em></em></span>
+        
+        <span><i class="i-hotel-big"></i><em></em></span>
+        <span><i class="i-golf"></i><em></em></span>
+
+        
+
     </section>
 
     <section class="car-icon">
@@ -750,7 +804,7 @@
         <span><i class="i-taxi"></i><em></em></span>
         <span><i class="i-bar"></i><em></em></span>
         <span><i class="i-fitness"></i><em></em></span>
-        <span><i class="i-airplane"></i><em></em></span>
+        <span><i class="i-flight"></i><em></em></span>
         <span><i class="i-star"></i><em></em></span>
         <span><i class="i-hotel"></i><em></em></span>
         <span><i class="i-hotel-big"></i><em></em></span>
@@ -784,7 +838,7 @@
         <span><i class="i-flight-take-off"></i><em></em></span>
         <span><i class="i-flight-multi"></i><em></em></span>
         <span><i class="i-flight-return"></i><em></em></span>
-        <span><i class="i-airplane"></i><em></em></span>
+        <span><i class="i-flight"></i><em></em></span>
         <span><i class="i-flight-round-solid"></i><em></em></span>
     </section>
 
@@ -927,7 +981,7 @@
         <span><i class="i-parking"></i><em></em></span>
         <span><i class="i-petrol"></i><em></em></span>
         <span><i class="i-swimming-pool"></i><em></em></span>
-        <span><i class="i-airplane"></i><em></em></span>
+        <span><i class="i-flight"></i><em></em></span>
         <span><i class="i-cart-shopping-1"></i><em></em></span>
         <span><i class="i-exclamation-circle"></i><em></em></span>
         <span><i class="i-call-phone"></i><em></em></span>
@@ -1053,14 +1107,14 @@
         <span><i class="i-eye"></i><em></em></span>
         <span><i class="i-eye-slash"></i><em></em></span>
         <span><i class="i-bell-o"></i><em></em></span>
-        <span><i class="i-hand-o-down"></i><em></em></span>
-        <span><i class="i-hand-o-left"></i><em></em></span>
-        <span><i class="i-hand-o-right"></i><em></em></span>
-        <span><i class="i-hand-o-up"></i><em></em></span>
-        <span><i class="i-thumbs-o-up"></i><em></em></span>
+        <span><i class="i-hand-down-o"></i><em></em></span>
+        <span><i class="i-hand-left-o"></i><em></em></span>
+        <span><i class="i-hand-right-o"></i><em></em></span>
+        <span><i class="i-hand-up-o"></i><em></em></span>
         <span><i class="i-thumbs-up"></i><em></em></span>
         <span><i class="i-thumbs-down"></i><em></em></span>
-        <span><i class="i-thumbs-o-down"></i><em></em></span>
+        <span><i class="i-thubms-up-o"></i><em></em></span>
+        <span><i class="i-thumbs-down-o"></i><em></em></span>
         <span><i class="i-wheelchair"></i><em></em></span>
         <span><i class="i-wrench"></i><em></em></span>
         <span><i class="i-video-camera"></i><em></em></span>
@@ -1127,7 +1181,7 @@
         <span><i class="i-flight-go"></i><em></em></span>
         <span><i class="i-flight-multi"></i><em></em></span>
         <span><i class="i-flight-return"></i><em></em></span>
-        <span><i class="i-airplane"></i><em></em></span>
+        <span><i class="i-flight"></i><em></em></span>
         <span><i class="i-flight-round-solid"></i><em></em></span>
         <span><i class="i-arrow-down-solid"></i><em></em></span>
         <span><i class="i-arrow-left-solid"></i><em></em></span>
@@ -1147,6 +1201,17 @@
         <span><i class="i-barcode"></i><em></em></span>
         <span><i class="i-book"></i><em></em></span>
         <span><i class="i-bookmark"></i><em></em></span>
+        <span><i class="i-gift"></i><em></em></span>
+        <span><i class="i-leaf"></i><em></em></span>
+        <span><i class="i-fire"></i><em></em></span>
+        <span><i class="i-warning-triangle"></i><em></em></span>
+        <span><i class="i-bullhorn"></i><em></em></span>
+        <span><i class="i-cart-plus"></i><em></em></span>
+        <span><i class="i-chat"></i><em></em></span>
+        <span><i class="i-comment"></i><em></em></span>
+        <span><i class="i-gallery-circle-solid"></i><em></em></span>
+        <span><i class="i-gear-dual-o"></i><em></em></span>
+        <span><i class="i-gear-dual"></i><em></em></span>
     </section>
 
 
@@ -1168,6 +1233,15 @@
                 // iTag[i].innerHTML = iClassName;
             }
 
+
+                var y = document.getElementsByTagName("I");
+                var i;
+                for (i = 0; i < y.length; i++) {
+                    y[i].style.color = "orange";
+                }
+                return;
+    
+            
 
         }
     </script>
