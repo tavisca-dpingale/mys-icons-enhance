@@ -527,9 +527,6 @@
 .i-check-mark-2-1:before {
   content: "\2e";
 }
-.i-sports-car:before {
-  content: "\3d";
-}
 .i-arrow-down-type-4:before {
   content: "\3e";
 }
@@ -616,9 +613,6 @@
 }
 .i-arrow-circle-up-o:before {
   content: "\e072";
-}
-.i-arrow-top-type-3-1:before {
-  content: "\66";
 }
 .i-glass:before {
   content: "\65";
@@ -950,7 +944,7 @@
 .i-flight:before {
   content: "\e0d5";
 }
-.i-flight-round-solid:before {
+.i-flight-round:before {
   content: "\e0ce";
 }
 .i-arrow-down-solid:before {
@@ -1031,9 +1025,6 @@
 .i-comment:before {
   content: "\e0ec";
 }
-.i-chat:before {
-  content: "\e0ed";
-}
 .i-gallery-circle-solid:before {
   content: "\e0ea";
 }
@@ -1042,4 +1033,76 @@
 }
 .i-gear-dual:before {
   content: "\e0ef";
+}
+.i-chat:before {
+  content: "\e0ed";
+}
+.i-info-circled-border:before {
+  content: "\e0f0";
+}
+.i-check-circled-border:before {
+  content: "\e0f1";
+}
+.i-alert-circled-border:before {
+  content: "\e0f2";
+}
+.i-close-circled-border:before {
+  content: "\e0f3";
+}
+.i-ban:before {
+  content: "\e0f4";
+}
+.i-gallery:before {
+  content: "\e0f5";
+}
+.i-direction:before {
+  content: "\e0f6";
+}
+.i-activity-round:before {
+  content: "\e0f7";
+}
+.i-asterisk:before {
+  content: "\e0f8";
+}
+.i-quote-left:before {
+  content: "\e0f9";
+}
+.i-quote-right:before {
+  content: "\e0fa";
+}
+.i-settings:before {
+  content: "\e0fb";
+}
+.i-ticket:before {
+  content: "\e0fc";
+}
+.i-trophy:before {
+  content: "\e0fd";
+}
+.i-train:before {
+  content: "\e0fe";
+}
+.i-maintenance:before {
+  content: "\e0ff";
+}
+.i-car-round:before {
+  content: "\e100";
+}
+.i-done-20:before {
+  content: "\e101";
+}
+.i-done-50:before {
+  content: "\e102";
+}
+.i-done-90:before {
+  content: "\e103";
+}
+.i-arrow-top-type-3-1:before {
+  content: "\66";
+}
+.i-icon-sports-car:before {
+  content: "\3d";
+}
+.i-hotel-round:before {
+  content: "\e104";
 }
