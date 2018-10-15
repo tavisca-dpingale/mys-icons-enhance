@@ -278,7 +278,7 @@
 .i-repeat:before {
   content: "\5c";
 }
-.i-maual-transmission:before {
+.i-manual-transmission:before {
   content: "\e000";
 }
 .i-restaurant:before {
@@ -1100,7 +1100,7 @@
 .i-arrow-top-type-3-1:before {
   content: "\66";
 }
-.i-icon-sports-car:before {
+.i-sports-car:before {
   content: "\3d";
 }
 .i-hotel-round:before {
